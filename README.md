@@ -64,25 +64,6 @@ Install locally (if not using Docker):
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 🌐 Expose to Internet (Optional for Development)
-
-Use **ngrok**:
-
-```bash
-ngrok http 8088
-```
-
-You'll get a public HTTPS URL like:
-
-```
-https://abc123.ngrok-free.app
-```
-
----
-
 ## 🐙 GitHub Deployment
 
 ### Push to GitHub:
@@ -113,8 +94,5 @@ docker ps
 docker stop <container_id>
 docker rm <container_id>
 
-Open an issue or contact [@koushikminfy](https://github.com/koushikminfy) on GitHub.
-
-```
 
 ---
