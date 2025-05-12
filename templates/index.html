@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dockerized Flask Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Dockerized Flask Website</h1>
+    <p>This is a styled web page running inside a Docker container!</p>
+    <img src="{{ url_for('static', filename='images/sample.jpg') }}" alt="Sample Image">
+</body>
+</html>
