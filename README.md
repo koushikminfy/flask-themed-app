@@ -118,6 +118,3 @@ Open an issue or contact [@koushikminfy](https://github.com/koushikminfy) on Git
 ```
 
 ---
-
-Would you like me to send you this as a `.zip` file with everything included (code + image + README)?
-```
