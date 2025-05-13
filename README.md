@@ -42,12 +42,12 @@ docker build -t flask-themed-app .
 ### Step 3: Run the Docker Container on Port 8088
 
 ```bash
-docker run -p 8088:8088 flask-themed-app
+docker pull koushik0416/flask-themed-app:latest
+docker run -p 9090:8088 koushik0416/flask-themed-app:latest
+
 ```
 
-### Step 4: View in Browser
 
-Go to: [http://localhost:8088](http://localhost:8088)
 
 ---
 
