@@ -1,12 +1,12 @@
-### 📘 `README.md`
+###  `README.md`
 
 ```markdown
-# 🐳 Flask-Themed-App (Dockerized)
+#  Flask-Themed-App (Dockerized)
 
 A simple, themed Flask web app running inside a Docker container on **port 8088**, complete with static images and HTML templates.
 
 
-## 📁 Project Structure
+##  Project Structure
 flask-themed-app/
 │
 ├── app.py
@@ -24,7 +24,7 @@ flask-themed-app/
 
 ---
 
-## 🧑‍💻 Setup & Run
+##  Setup & Run
 
 ### Step 1: Clone the Repository
 
@@ -51,7 +51,7 @@ docker run -p 9090:8088 koushik0416/flask-themed-app:latest
 
 ---
 
-## 📦 Python Dependencies
+##  Python Dependencies
 
 Listed in `requirements.txt`:
 
@@ -64,7 +64,7 @@ Install locally (if not using Docker):
 ```bash
 pip install -r requirements.txt
 ```
-## 🐙 GitHub Deployment
+##  GitHub Deployment
 
 ### Push to GitHub:
 
@@ -79,13 +79,13 @@ git push -u origin main
 
 ---
 
-## 📸 Screenshot
+##  Screenshot
 
 > ![screenshot](static/images/sample.jpg)
 
 ---
 
-## 🧼 Cleanup(if reuired for us s)
+##  Cleanup(if reuired for us s)
 
 To stop and remove the container:
 
